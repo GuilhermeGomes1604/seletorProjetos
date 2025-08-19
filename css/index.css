@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cabecalho{
+    height: 15vh;
+    width: 100vw;
+}
+body{
+    overflow-x: hidden;
+}
