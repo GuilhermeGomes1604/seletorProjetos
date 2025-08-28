@@ -1,0 +1,127 @@
+/* GERAL */
+
+    *{
+        margin: 0;
+        padding: 0;
+        color:#611b1c!important;
+
+    }
+
+/* FONTES */
+
+    .jura{
+        font-family: "Jura", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .teko{
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 36px;
+    }
+
+/* NAVBAR */
+
+    .navbar-title{
+        font-size: 72px;
+    }
+    .navbar-buttons{
+        font-size: 36px;
+    }
+    #logo{
+        height: 300px;
+        width: 300px;
+    }
+    .navbar{
+        background-color: #ad4e4d!important;
+        font-size: 36px;
+    }
+    nav{
+        height: 14vh;
+    }
+    .navbar-link{
+        font-size: 36px!important;
+    }
+    .navbar-nav{
+        width: 45vw;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+    .navbar-link:hover{
+        color: #461515!important;
+    }
+    .current-nav-link{
+        background-color: #611b1c!important;
+        border-radius: 10%;
+        color: #ad4e4d!important;
+    }
+    .current-nav-link:hover{
+        color: #ad4e4d!important;
+    }
+
+/* RODAPÉ */
+    .nav-title{
+        letter-spacing: -2px;
+        font-weight: 400;
+    }
+    .nav{
+        background-color: #ad4e4d!important;
+    }
+    .nav-link{
+        font-size: 32px;
+        font-weight: 350;
+    }
+    #instagram{
+        height: 25px;
+        width: 25px;
+        margin-right: 7px;
+        margin-bottom: 2px;
+    }
+    #facebook{
+        height: 30px;
+        width: 30px;
+        margin-right: 7px;
+        margin-bottom: 5px;
+    }
+    .image{
+        height: 100vh;
+        filter: brightness(0.5);
+    }
+    #cadastro-container1{
+        background-color: dimgray;
+        width: 100%;
+        height: 70vh;
+    }
+    .cadastro-container2{
+        background-color: darkgray;
+        border-radius: 10%;
+        height: 85%;
+        width: 55%;
+    }
+    input{
+        background-color: rgb(48, 48, 48);
+        border: none;
+        border-radius: 15px; 
+        height: 30px;
+        width: 90%;
+        text-align: center;
+        color: white!important;
+    }
+    button{
+        text-align: center;
+        font-size: 17px;
+        background-color: #ad4e4d;
+        color: #ad4e4d;
+        border: none;
+        border-radius: 5px;
+        height: 50px;
+        width: 60%;
+    }
+    #form{
+        height: 70%;
+        width: 100%;
+    }
