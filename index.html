@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Seletor de Projetos</title>
     <link rel="stylesheet" href="./src/framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./src/assets/projetos.png" type="image/x-icon">
 </head>
-
 <body>
     <header>
         <div id="cabecalho">
-            <nav class="corPreto navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Projetos</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -20,27 +19,23 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Em desenvolvimento</a>
-                        </div>
-                    </div>
                 </div>
             </nav>
         </div>
         <script src="https://kit.fontawesome.com/42c04c0a9c.js" crossorigin="anonymous"></script>
     </header>
-    <main>
+    <main class="flex-fill">
         <section>
             <div class="container-fluid text-center" style=>
                 <div class="row">
                     <div class="col-md-8 mx-auto">
+                        <br><br>
                         <h1 class="cor">APLICAÇÕES DESENVOLVIDAS COM </h1>
                         <p style="font-size: 40px;">
                             <i class="fa-brands fa-html5"></i>HTML v.5
                             <i class="fa-brands fa-css3"></i>CSS v.3
                         </p>
-                        <hr>
+                        <br><hr>
                     </div>
                 </div>
             </div>
@@ -50,39 +45,39 @@
                 style="width: 100vw;">
                 <div class="row g-5">
                     <div class="col d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://i.ytimg.com/vi/uNcP3Tie7TA/maxresdefault.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="card" style=" height: 25rem; width: 18rem;">
+                            <img class="card-image" src="./src/assets/display.png"
+                                class="card-img-top" alt="Print do site criado">
+                                <hr>
+                            <div class="card-body container-fluid flex-column d-flex justify-content-center align-items-center">
                                 <h5 class="card-title">Display em CSS</h5>
-                                <p class="card-text">
-                                    Projeto de um site para explicar os displays em CSS
-                                </p>
-                                <a href="./src/sites/projeto1/projeto1.html" class="btn btn-outline-dark">CLIQUE AQUI</a>
+                                <p class="card-text">Projeto de um site para explicar os displays em CSS.</p>
+                                <a href="./src/sites/projeto1/projeto1.html" target="_blank" class="btn btn-outline-light">CLIQUE AQUI</a>
                             </div>
                         </div>
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://lh4.googleusercontent.com/proxy/sSYyz7WIHlkdJ3H37IAmUuQzeuxNxwpfVsfYGJCmPEdAjTwEqXtOm8s8Uan4uv2if2aYmFY6PH-4ikV0Xl292Q5IgxcaYfWwzwc"
+                        <div class="card" style="height: 25rem; width: 18rem;">
+                            <img class="card-image" src="./src/assets/fassad.png"
                                 class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">EM DESENVOLVIMENTO</h5>
-                                <p class="card-text">
-                                    
-                                <a href="#" class="btn btn-outline-dark">CLIQUE AQUI</a>
+                                <hr>
+                            <div class="card-body container-fluid flex-column d-flex justify-content-center align-items-center">
+                                <h5 class="card-title">Fassad | Gastronomia Árabe</h5>
+                                <p class="card-text"> Projeto de site comercial do Fassad</p>
+                                <a href="./src/sites/projeto2/projeto2.html" target="_blank" class="btn btn-outline-light">CLIQUE AQUI</a>
                             </div>
                         </div>
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://lh4.googleusercontent.com/proxy/sSYyz7WIHlkdJ3H37IAmUuQzeuxNxwpfVsfYGJCmPEdAjTwEqXtOm8s8Uan4uv2if2aYmFY6PH-4ikV0Xl292Q5IgxcaYfWwzwc"
+                        <div class="card" style="height: 25rem; width: 18rem;">
+                            <img class="card-image" src="https://lh4.googleusercontent.com/proxy/sSYyz7WIHlkdJ3H37IAmUuQzeuxNxwpfVsfYGJCmPEdAjTwEqXtOm8s8Uan4uv2if2aYmFY6PH-4ikV0Xl292Q5IgxcaYfWwzwc"
                                 class="card-img-top" alt="...">
-                            <div class="card-body">
+                                <hr>
+                            <div class="card-body container-fluid flex-column d-flex justify-content-center align-items-center">
                                 <h5 class="card-title">EM DESENVOLVIMENTO</h5>
                                 <p class="card-text">
                                 </p>
-                                <a href="#" class="btn btn-outline-dark">CLIQUE AQUI</a>
+                                <a href="#" target="_blank" class="btn btn-outline-light">CLIQUE AQUI</a>
                             </div>
                         </div>
                     </div>
@@ -90,16 +85,15 @@
             </div>
         </section>
     </main>
-    </div>
-    <footer>
-        <div style=" width: 100vw; height: 20vh; margin-top: 9vh;" class="corroxo d-flex justify-content-center align-items-center">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"> <b> © DEVS 2025 TODOS OS DIREITOS RESERVADOS</b></a>
-                </li>
-               
-        </div>
+    <div class = "d-flex flex-column min-vh-100">
+        <footer class="footer mt-auto">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">TODOS OS DIREITOS RESERVADOS @2025</a>
+            </li>
+        </ul>
     </footer>
+    </div>
     <script src="./src/framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

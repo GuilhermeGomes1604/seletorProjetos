@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#482e1d!important;
+}
+body{
+    background-color: #482e1d;
+}
+.el-messiri-uniquifier{
+  font-family: "El Messiri", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.saira-condensed-extralight{
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}  
+#logo{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    border: white solid 1px;
+}
+.navbar{
+    background-color: #e9d9c2!important;
+    font-size: 22px;
+}
+.nav{
+    background-color: #e9d9c2!important;
+    font-size: 19px;
+}
+nav{
+    height: 90px;
+}
+.nav-link:hover{
+    color: #c28e1b!important;
+}
+.current-nav-link{
+    background-color: #c28e1b!important;
+    border-radius: 10%;
+    color: #e9d9c2!important;
+}
+.current-nav-link:hover{
+    color: #e9d9c2!important;
+}
+.icon{
+    height: 22px;
+    width: 22px;
+}
+#ifood{
+    height: 17px;
+    width: 17px;
+    border-radius: 15%;
+}
+.iframe{
+    width: 95vw;
+    height: 85vh;
+    text-align: center;
+    background-color: #20150d;
+    border-radius: 5%;
+}
+.local{
+    color: #c28e1b!important;
+}
+.sec1div1{
+    background-color: #c28e1b!important;
+    border-radius: 50%;
+    height: 90vh;
+    width: 55vw;
+    text-align: center;
+}
+.sec1div2{
+    width: 95%;
+}
+.sec1div3{
+    background-image: url(../src/assets/background2.png);
+    border: #20150d solid 5px;
+    border-radius: 5%;
+    height: 90%;
+    width: 35vw;
+    text-align: center;
+}
+.texto{
+    font-size: 22px!important;
+}
+.titulo{
+    font-size: 60px!important;
+}

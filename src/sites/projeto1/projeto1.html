@@ -1,32 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 1 - Display</title>
     <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/projeto1.css">
+    <link rel="shortcut icon" href="../../assets/projetos.png" type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+    </style>
 </head>
-<body>
+
+<body class="d-flex flex-column min-vh-100">
     <header>
-        <div id="cabecalho">
-            <nav class="corPreto navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Projetos</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Em desenvolvimento</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand pr-5" href="#">Displays</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main class="flex-fill">
+        <section>
+            <div id="section1">
+                <div class="row" style="height: 90vh;">
+                    <div id="sec1col1" class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <div id="sec1col1div"
+                            class="container-fluid d-flex flex-column justify-content-center align-items-center">
+                            <h1>Venha aprender HTML e CSS!</h1>
+                            <br><br>
+                            <p>Guia feito para meu prezado docente do SENAI avaliar minha performance e/ou sofrimento.
+                            </p>
+                            <br>
+                            <button type="button" class="btn btn-outline-dark">Clique aqui para <b>APRENDER</b></button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                        <h2> Conteúdos: </h2>
+                        <br><br>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        HTML
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">HTML, sigla para HyperText Markup Language, é a
+                                        linguagem de marcação fundamental para estruturar o conteúdo de páginas web,
+                                        sendo o "bloco de construção" da internet.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        CSS
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">CSS, ou Folhas de Estilo em Cascata, é uma linguagem usada para descrever a apresentação de documentos HTML ou XML. Em termos simples, o CSS define como os elementos de uma página web devem ser exibidos, incluindo cores, fontes, espaçamento, layout e outros elementos visuais.</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </nav>
-        </div>
-        <script src="https://kit.fontawesome.com/42c04c0a9c.js" crossorigin="anonymous"></script>
-    </header>
+            </div>
+        </section>
+        <section>
+            <div id="sec2div1" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+                <h1> O que é a propriedade Display em CSS?</h1>
+                <br><br>
+                <p id="sec2div1txt">A propriedade display em CSS controla o modelo de layout de um elemento, determinando como ele é renderizado e como interage com outros elementos na página. Ela define se um elemento ocupa todo o espaço horizontal, se fica lado a lado ou se permite um controle mais complexo do posicionamento.</p>
+            </div>
+            <div id="sec2div2" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Display</th>
+                            <th scope="col">Características</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="Row">Block</th>
+                            <td>O modelo de exibição block ocupa toda a largura disponível do contêiner pai, forçando uma quebra de linha antes e depois do elemento. Os elementos com este tipo de exibição são renderizados em uma pilha vertical, onde cada um inicia em uma nova linha.</td>
+                        </tr>
+                        <tr>
+                            <th scope="Row">Inline</th>
+                            <td>O modelo de exibição inline ocupa apenas a largura necessária para o seu conteúdo. Diferente do block, os elementos inline não iniciam em uma nova linha e se posicionam horizontalmente, um ao lado do outro. Propriedades de largura (width) e altura (height) não se aplicam a elementos inline.</td>
+                        </tr>
+                        <tr>
+                            <th scope="Row">Inline-Block</th>
+                            <td>O modelo de exibição inline-block é uma combinação dos dois. O elemento é renderizado horizontalmente, mantendo-se na mesma linha que outros elementos, mas permite a manipulação de propriedades como largura (width), altura (height), e margens verticais, que são características do modelo block.</td>
+                        </tr>
+                        <tr>
+                            <th scope="Row">Flex</th>
+                            <td>O modelo de exibição flex estabelece um contêiner flexível, permitindo que os elementos filhos sejam organizados e alinhados de forma dinâmica. Este modelo é um sistema de layout unidimensional, otimizado para distribuir espaço e alinhar itens ao longo de um eixo principal ou secundário.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer mt-auto">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">TODOS OS DIREITOS RESERVADOS @2025</a>
+            </li>
+        </ul>
+    </footer>
     <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

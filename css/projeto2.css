@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#3b2516!important;
+}
+body{
+    background-image: url(../src/assets/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.el-messiri-uniquifier{
+  font-family: "El Messiri", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.saira-condensed-extralight{
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}  
+#background{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+#logo{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+.navbar{
+    background-color: #e9d9c2!important;
+    font-size: 22px;
+}
+.nav{
+    background-color: #e9d9c2!important;
+    font-size: 19px;
+}
+nav{
+    height: 90px;
+}
+.nav-link:hover{
+    color: #c28e1b!important;
+}
+.current-nav-link{
+    background-color: #c28e1b!important;
+    border-radius: 10%;
+    color: #e9d9c2!important;
+}
+.current-nav-link:hover{
+    color: #e9d9c2!important;
+}
+.icon{
+    height: 22px;
+    width: 22px;
+}
+#ifood{
+    height: 17px;
+    width: 17px;
+    border-radius: 15%;
+}
+.image{
+    height: 100vh;
+    filter: brightness(0.5);
+}
+h1{
+    color: #c28e1b!important;
+    font-size: 60px;
+}
+hr{
+    color: #c28e1b!important;
+}
+.texto{
+    color: #c28e1b!important;
+}
+.container{
+    text-align: center;
+}
